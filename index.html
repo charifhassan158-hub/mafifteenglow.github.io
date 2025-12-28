@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ma Fifteen Glow</title>
+    <style>
+        /* ====== STYLE GLOBAL ====== */
+       .logo {
+    width: 140px;        /* taille du logo */
+    height: 140px;       /* même que la largeur pour un cercle parfait */
+    border-radius: 50%;  /* rend l'image ronde */
+    object-fit: cover;   /* ajuste l'image pour remplir le cercle */
+    margin-bottom: 15px;
+    border: 2px solid #d4af37; /* bordure or autour */
+}
+
+	   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #000; /* noir */
+            color: #d4af37; /* or */
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* ====== HEADER ====== */
+        header {
+            padding: 40px 20px;
+            background-color: #000;
+        }
+
+        .logo {
+            width: 140px;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            margin: 10px 0;
+            color: #d4af37;
+        }
+
+        .slogan {
+            font-style: italic;
+            color: #f5e6a8;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 20px;
+            background-color: #d4af37;
+            color: #000;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #ffd700;
+        }
+
+        /* ====== SECTIONS ====== */
+        section {
+            padding: 40px 20px;
+        }
+
+        #catalogue {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .produit {
+            background-color: #111;
+            padding: 20px;
+            width: 260px;
+            border-radius: 12px;
+            border: 1px solid #d4af37;
+        }
+
+        .produit img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .prix {
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        ol {
+            list-style-position: inside;
+            padding: 0;
+        }
+
+        footer {
+            background-color: #111;
+            padding: 20px;
+            color: #d4af37;
+            margin-top: 40px;
+        }
+ 
+
+.whatsapp-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.whatsapp-title {
+    font-size: 18px;
+    color: #d4af37;  /* or */
+    margin-bottom: 8px;
+}
+
+.whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;                  /* espace logo / texte */
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    background-color: #d4af37;  /* bouton or */
+    padding: 6px 12px;          /* plus petit bouton */
+    border-radius: 25px;
+    transition: transform 0.2s;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.05);
+}
+
+.whatsapp-icon {
+    width: 28px;               /* très petit logo */
+    height: 28px;
+    border-radius: 50%;        /* logo rond */
+    object-fit: cover;
+    border: 0.8px solid #d4af37; /* très fine bordure or */
+}
+
+.whatsapp-text {
+    color: #000;
+    font-size: 14px;           /* texte plus petit */
+}
+
+.contact-whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centre horizontalement */
+    gap: 10px;               /* espace entre logo et numéro */
+    margin-bottom: 10px;
+}
+
+.contact-icon {
+    width: 28px;               /* petit logo */
+    height: 28px;
+    border-radius: 50%;        /* rond */
+    object-fit: cover;
+    border: 0.8px solid #d4af37; /* fine bordure or */
+}
+  </style>
+</head>
+<body>
+
+<!-- ====== HEADER ====== -->
+<header>
+    <img src="WhatsApp Image 2025-12-27 at 13.10.35.jpeg" alt="Ma Fifteen Glow Logo" class="logo">
+    <h1>Ma Fifteen Glow</h1>
+    <p class="slogan">La beauté et le parfum qui révèlent ton éclat</p>
+   <a href="https://wa.me/2694555410?text=Bonjour%20Ma%20Fifteen%20Glow,%20je%20souhaite%20commander%20un%20produit."
+   class="whatsapp-btn">
+    <img src="WhatsApp Image 2025-12-27 at 14.58.08.jpeg" alt="WhatsApp" class="whatsapp-icon">
+</a>
+</header>
+
+<!-- ====== PRESENTATION ====== -->
+<section id="presentation">
+    <h2>Présentation</h2>
+    <p>
+        Ma Fifteen Glow propose des parfums raffinés et des produits cosmétiques
+        pour sublimer votre beauté naturelle. Nos créations allient élégance, qualité
+        et bien-être.
+    </p>
+</section>
+
+<!-- ====== CATALOGUE ====== -->
+<section id="catalogue">
+    <h2>Catalogues & Prix</h2>
+
+    <div class="produit">
+        <img src="WhatsApp Image 2025-12-27 at 14.45.29 (1).jpeg" alt="Parfum Éclat">
+        <h3>Parfum Éclat</h3>
+        <p>Notes florales et musquées pour une élégance naturelle.</p>
+        <p class="prix">Prix : 7 500 KMF</p>
+        <a href="https://wa.me/2694555410?text=Bonjour,%20je%20souhaite%20commander%20le%20Parfum%20Éclat."
+           class="btn">Commander</a>
+    </div>
+
+    <div class="produit">
+        <img src="WhatsApp Image 2025-12-27 at 14.45.29.jpeg" alt="Parfum Nuit">
+        <h3>Parfum Nuit</h3>
+        <p>Parfum envoûtant pour les soirées élégantes.</p>
+        <p class="prix">Prix : 6 000 KMF</p>
+        <a href="https://wa.me/2694555410?text=Bonjour,%20je%20souhaite%20commander%20le%20Parfum%20Nuit."
+           class="btn">Commander</a>
+    </div>
+
+    <div class="produit">
+        <img src="WhatsApp Image 2025-12-27 at 14.45.30 (1).jpeg" alt="Crème Lumière">
+        <h3>Crème Lumière</h3>
+        <p>Hydrate et adoucit la peau en profondeur, parfum délicat.</p>
+        <p class="prix">Prix : 2 000 KMF</p>
+        <a href="https://wa.me/2694555410?text=Bonjour,%20je%20souhaite%20commander%20la%20Crème%20Lumière."
+           class="btn">Commander</a>
+    </div>
+
+    <div class="produit">
+        <img src="WhatsApp Image 2025-12-27 at 14.45.30.jpeg" alt="Huile Sublime">
+        <h3>Huile Sublime</h3>
+        <p>Huile nourrissante avec parfum léger pour la peau et les cheveux.</p>
+        <p class="prix">Prix : 500 KMF</p>
+        <a href="https://wa.me/2694555410?text=Bonjour,%20je%20souhaite%20commander%20l'Huile%20Sublime."
+           class="btn">Commander</a>
+    </div>
+
+    <div class="produit">
+        <img src="WhatsApp Image 2025-12-27 at 14.45.31.jpeg" alt="Savon Douceur">
+        <h3>Savon Douceur</h3>
+        <p>Savon parfumé pour une peau douce et délicatement parfumée.</p>
+        <p class="prix">Prix : 4 000 KMF</p>
+        <a href="https://wa.me/2694555410?text=Bonjour,%20je%20souhaite%20commander%20le%20Savon%20Douceur."
+           class="btn">Commander</a>
+    </div>
+
+</section>
+
+<!-- ====== COMMENT COMMANDER ====== -->
+<section id="commande">
+    <h2>Comment commander ?</h2>
+    <ol>
+        <li>Cliquez sur le bouton Commander</li>
+        <li>Envoyez le nom du produit sur WhatsApp</li>
+        <li>Nous confirmons rapidement votre commande</li>
+    </ol>
+</section>
+
+<!-- ====== CONTACT ====== -->
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-whatsapp">
+        <img src="WhatsApp Image 2025-12-27 at 14.58.08.jpeg" alt="WhatsApp" class="contact-icon">
+        <span>+269 455 54 10</span>
+    </div>
+    <a href="https://wa.me/2694555410" class="btn">Nous écrire sur WhatsApp</a>
+</section>
+<!-- ====== FOOTER ====== -->
+<footer>
+    <p>© 2026 Ma Fifteen Glow – Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
